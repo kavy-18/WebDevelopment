@@ -1,0 +1,5 @@
+A tag is used to structure our web page.These are of two types:
+1) Opening Tag. eg. <tagname>
+2) Closing Tag. eg. </tagname>
+Element is a collection of opening tag ,content and closing tag.
+eg. <tagname> Content </tagname>

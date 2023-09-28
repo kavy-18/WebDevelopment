@@ -1,0 +1,2 @@
+Doctype declaration declares the document type of our web page.
+eg. <!DOCTYPE html>

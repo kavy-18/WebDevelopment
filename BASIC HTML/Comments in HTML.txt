@@ -1,0 +1,1 @@
+Comments in HTML is used to stop a particular line of code being rendered on our web browser or adding some additional information to your code.You can use <!-- --> to comment a code.
