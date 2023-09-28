@@ -1,0 +1,8 @@
+These are the different ways to improve accessibility of html:
+1)Structure and organize with headers
+2)Assign alt tags for images
+3)Use descriptive title for links
+4)Use colors carefully
+5)Design forms for web accessibility
+6)Use tables for tabular data
+7)Ensure site navigation via a keyboard

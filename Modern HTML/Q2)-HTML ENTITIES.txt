@@ -1,0 +1,5 @@
+HTML ENTITIES:
+HTML character entities are used as a replacement of reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities.
+These characters are replaced because some characters are reserved in HTML. HTML entities provide a wide range of characters which can allow you to add icons, geometric shapes, mathematical operators, etc.
+e.g.
+<,>,&,",'
