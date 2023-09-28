@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table class="border">
+        <tr>
+            <td>
+                <h1>Conference Schedule</h1>
+                <table class="border">
+                    <tr class="border">
+                         <th class="border">Time</th>
+                         <th class="border">Room1</th>
+                         <th class="border">Room2</th>
+                         <th class="border">Room3</th>
+                         <th class="border">Room4</th>
+                    </tr>
+                    <tr class="border">
+                        <td class="border" rowspan="3"> 9:00 AM - 10:00 AM</td>
+                        <td class="border" rowspam="2"> Keynote</td>
+                        <td class="border">Session A</td>
+                        <td class="border">Session B</td>
+                        <td class="border" rowspan="3">Session C</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="border">Session D</td>
+                        <td class="border">Session E</td>
+                    </tr>
+                    <tr class="border">
+                         <td class="border">10:30 AM - 11:30 AM</td>
+                         <td class="border" colspan="2">Session F</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="border">12:00 PM - 1:00 PM</td>
+                        <td class="border" colspan="4">Lunch Break</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="border" rowspan="2">1:00 PM - 2:00 PM</td>
+                        <td class="border">Session G</td>
+                        <td class="border" rowspan="2">Session H</td>
+                        <td class="border">Session I</td>
+                        <td class="border">Session J</td>
+                    </tr>
+                    <tr class="border">
+                        <td class="border">Session K</td>
+                        <td class="border">Session L</td>
+                        <td class="border">Session M</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
