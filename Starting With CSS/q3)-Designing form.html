@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#92b079;
+        }
+        .h{
+            text-align: center;
+        }
+        .box{
+            display: flex;
+            align-items: center;
+        }
+        .form{
+            width: 50%;
+            margin: 0 auto;
+            width:450px;
+            text-align: center;
+            background-color:#3c9298;
+        }
+        .form #name{
+            background-color: #3e4444;
+        }
+        .form #email{
+            background-color: #82b74b;
+        }
+        .form #password{
+            background-color: #405d27;
+        }
+        .form #cpassword{
+            background-color: #c1946a;
+        }
+        .form #age{
+            background-color:  #d5e1df;
+        }
+        .form #gender{
+            background-color: #e3eaa7;
+        }
+        .form .tc{
+            background-color: #b5e7a0;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h">Sign Up to XXXXXXXX to view the website</h1>
+    <div class="box"> 
+        <form action="" class="form">
+                <br>
+                <br>
+                <label for="name">USERNAME:</label>
+                <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME">
+                <br>
+                <br>
+                <label for="email">EMAIL:</label>
+                <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL-ID">
+                <br>
+                <br>
+                <label for="password">PASSWORD:</label>
+                <input type="password" name="password" id="password" placeholder="ENTER YOUR PASSWORD">
+                <br>
+                <br>
+                <label for="cpassword">CONFIRM AGAIN:</label>
+                <input type="password" name="cpassword" id="cpassword" placeholder="ENTER YOUR PASSWORD AGAIN">
+                <br>
+                <br>
+                <label for="age">AGE:</label>
+                <input type="number" name="age" id="age" placeholder="ENTER YOUR AGE">
+                <br>
+                <br>
+                <label for="gender">GENDER:</label>
+                <select name="gender" id="gender">
+                    <option value="1">MALE</option>
+                    <option value="2">FEMALE</option>
+                    <option value="3">OTHER</option>
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" name="tc" id="tc">
+                <label for="tc" class="tc">DO YOU AGREE TO OUR TERM AND CONDITONS?</label>
+                <br>
+                <br>
+                <button clas="btn">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
