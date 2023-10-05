@@ -1,0 +1,18 @@
+1)Justify Content:
+ This property is used to control the alignment of flex items along the main axis (horizontal axis by default) within a flex container. It     determines how the available space is distributed between and around the flex items. The options include:
+a)Center b)Flex-Start c)Flex-end d)space-around e)space-between
+
+2)Align items:
+This property controls the alignment of flex items along the cross axis (vertical axis by default) within a flex container. It defines how items are positioned in relation to each other in the cross-axis direction. The options include:
+a)Center b)Flex-Start c)Flex-end d)strech e)baseline
+
+3)Gap:
+The gap property is used to define the spacing between flex items in a flex container. It applies both horizontally and vertically. You can specify the gap using length values (e.g., pixels) or percentages. It provides a convenient way to add space between items without needing to use margin or padding.
+
+4)Flex Direction:
+This property determines the primary axis along which flex items are laid out within the flex container. It defines the direction in which items are positioned. The options are:
+a)Row b)Row Reverse c)Column d)Column Reverse
+
+5)Flex Wrap:
+The flex-wrap property controls whether flex items should wrap to the next line when they don't fit within the flex container's dimensions. The options are:
+a)Wrap b)No-wrap c)wrap reverse

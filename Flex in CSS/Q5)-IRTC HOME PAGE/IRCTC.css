@@ -1,0 +1,399 @@
+.container{
+    display: flex;
+}
+.container .box1{
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 10px;
+}
+.container .box1 .logo{
+    width: 21vw;
+    height: 13vh;
+    position: relative;
+    /* border: 2px solid black; */
+}
+.container .box1 .logo img{
+    position: absolute;
+    left:50px;
+    top: 5px;
+}
+.container .box1 .login{
+    width: 33vw;
+    height: 13vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    padding: auto;
+}
+.container .box1 .login a{
+    text-decoration: none;
+    color: black;
+    height: 3vh;
+}
+.container .box1 .login .a1{
+    position: absolute;
+    top:5px;
+    left:130px;
+}
+.container .box1 .login .a2{
+    position: absolute;
+    top:5px;
+    left:230px;
+}
+.container .box1 .login .a3{
+    position: absolute;
+    top:5px;
+    left:335px;
+}
+.container .box1 .login .a4{
+     position: absolute;
+     color:white;
+     border: 1px solid gray;
+     background-color: #FB792B;
+     padding: 0 5px 0 5px;
+     border-radius:5%;
+     top: 35px;
+     left:135px;
+}
+.container .box1 .login .a5{
+     position: absolute;
+     border: 1px solid gray;
+     border-radius:5%;
+     width: 5vw;
+     padding: 0 0 0 7px;
+     top: 35px;
+     left:200px;
+}
+.container .box1 .login .a6{
+     position: absolute;
+     border: 1px solid gray;
+     border-radius:5%;
+     width: 7vw;
+     padding: 0 0 0 10px;
+     top: 35px;
+     left:290px;
+}
+.container .box1 .header{
+    /* border: 2px solid black; */
+    width: 58vw;
+    position: relative;
+    height: 25vh;
+}
+.container .box1 .header .first{
+    position: absolute ;
+    font-weight: 900;
+    font-size: xxx-large;
+    top: 60px;
+    left: 50px;
+}
+.container .box1 .header .second2{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+    font-weight: 800;
+    font-size: x-large;
+    color:#FB792B;
+}
+.container .box1 .header .second3{
+    position: absolute;
+    top: 120px;
+    left: 230px;
+    font-weight: 800;
+    font-size: x-large;
+    color: #213D77;
+}
+.container .box1 .header .second1{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-weight: 800;
+    font-size: x-large;
+    color:#01BB0A;
+}
+.container .box1 .btn{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 58vw;
+    height: 10vh;
+}
+.container .box1 .btn .ff{
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    border: 2px solid gray;
+    background-color: #213D77;
+    border-radius: 5%;
+    height:3.30vh;
+    width: 9vw;
+}
+.container .box1 .btn .ff img{
+    position: absolute;
+    left: 4px;
+}
+.container .box1 .btn .ff p{
+    position: absolute;
+    left: 36px;
+    color: white;
+}
+.container .box1 .btn .ss{
+    display: flex;
+    position: relative;
+    top: 25px;
+    left: 80px;
+    border: 2px solid gray;
+    border-radius: 5%;
+    height:3.30vh;
+    width: 8vw;
+}
+.container .box1 .btn .ss img{
+    position: absolute;
+    left: 4px;
+}
+.container .box1 .btn .ss p{
+    position: absolute;
+    left:34px;
+}
+.container .box1 .btn .tt{
+    display: flex;
+    position: relative;
+    left: 110px;
+    top: 25px;
+    border: 2px solid gray;
+    border-radius: 5%;
+    height:3.30vh;
+    width: 10.5vw;
+}
+.container .box1 .btn .tt img{
+    position: absolute;
+    left: 4px;
+}
+.container .box1 .btn .tt p{
+    position: absolute;
+    left:34px;
+}
+.container .box1 .book1{
+    display: flex;
+    width: 59vw;
+    height:15vh ;
+    /* border: 2px solid black; */
+}
+.container .box1 .book2{
+    display: flex;
+    width: 59vw;
+    height:15vh ;
+    /* border: 2px solid black; */
+}
+.container .box1 .book2 .extra2{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    height: 9vh;
+    width: 35vw;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+.container .box1 .book1 .extra{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    height: 9vh;
+    width: 35vw;
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+.container .box1 .book2 .extra2 .imgo{
+    position: absolute;
+    top:14px;
+    left:25px;
+}
+.container .box1 .book2 .extra2 .po{
+    position: absolute;
+    color: gray;
+    top:3px;
+    left:60px;
+}
+.container .box1 .book2 .extra2 .imgs{
+    position: absolute;
+    top:3px;
+    left:100px;
+}
+.container .box1 .book2 .extra2 .ps{
+    position: absolute;
+    top:18px;
+    font-weight: 700;
+    font-size: larger;
+    left:60px;
+}
+.container .box1 .book2 .extra2 .pt{
+    position: absolute;
+    top:38px;
+    left:60px;
+    color: gray;
+}
+.container .box1 .book2 .extra2 .imgt{
+    position: absolute;
+    top:14px;
+    left:190px;
+}
+.container .box1 .book2 .extra2 .pf{
+    position: absolute;
+    color: gray;
+    top:3px;
+    left:235px;
+}
+.container .box1 .book2 .extra2 .imgf{
+    position: absolute;
+    top:3px;
+    left:275px;
+}
+.container .box1 .book2 .extra2 .pfi{
+    position: absolute;
+    top:18px;
+    font-weight: 700;
+    font-size: larger;
+    left:235px;
+}
+.container .box1 .book2 .extra2 .psi{
+    position: absolute;
+    color: gray;
+    top:38px;
+    left:235px;
+}
+.container .box1 .book2 .extra2 .imgfi{
+    position: absolute;
+    top:14px;
+    left:355px;
+}
+.container .box1 .book2 .extra2 .pse{
+    position: absolute;
+    color: gray;
+    top:3px;
+    left:390px;
+}
+.container .box1 .book2 .extra2 .imgsi{
+    position: absolute;
+    top:3px;
+    left:465px;
+}
+.container .box1 .book2 .extra2 .pe{
+    position: absolute;
+    top:18px;
+    font-weight: 700;
+    font-size: larger;
+    left:390px;
+}
+.container .box1 .book2 .extra2 .pn{
+    position: absolute;
+    color: gray;
+    top:38px;
+    left:390px;
+}
+.container .box1 .book1 .extra .img1{
+    position: absolute;
+    top:14px;
+    left:25px;
+}
+.container .box1 .book1 .extra .p1{
+    position: absolute;
+    color: gray;
+    top:3px;
+    left:60px;
+}
+.container .box1 .book1 .extra .img2{
+    position: absolute;
+    top:3px;
+    left:100px;
+}
+.container .box1 .book1 .extra .p2{
+    position: absolute;
+    top:18px;
+    font-weight: 700;
+    font-size: larger;
+    left:60px;
+}
+.container .box1 .book1 .extra .p3{
+    position: absolute;
+    top:38px;
+    left:60px;
+    color: gray;
+}
+.container .box1 .book1 .extra .img3{
+    position: absolute;
+    top:10px;
+    left:225px;
+}
+.container .box1 .book1 .extra .img4{
+    position: absolute;
+    top:14px;
+    left:355px;
+}
+.container .box1 .book1 .extra .p4{
+    position: absolute;
+    color: gray;
+    top:3px;
+    left:390px;
+}
+.container .box1 .book1 .extra .img5{
+    position: absolute;
+    top:3px;
+    left:410px;
+}
+.container .box1 .book1 .extra .p5{
+    position: absolute;
+    top:18px;
+    font-weight: 700;
+    font-size: larger;
+    left:390px;
+}
+.container .box1 .book1 .extra .p6{
+    position: absolute;
+    top:38px;
+    left:390px;
+    color: gray;
+}
+.container .box1 .footer{
+    display: flex;
+    /* border: 2px solid black; */
+    width: 59vw;
+    height: 15vh;
+}
+.container .box1 .footer .last{
+    display: flex;
+    border: 2px solid #01BB0A;
+    border-radius: 2%;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    color: white;
+    background-color: #01BB0A;
+    width:35vw;
+    height:10vh;
+}
+.container .box1 .footer .last p{
+    position: absolute;
+    left: 200px;
+    top:20px;
+    font-weight: 700;
+    font-size: larger;
+}
+.container .box1 .footer .last img{
+    position: absolute;
+    left: 315px;
+    top:18px;
+}
+.container .box2{
+    width:40vw;
+}
+.container .box2 img{
+    height: 100vh;
+    width:40vw;
+}

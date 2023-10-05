@@ -1,0 +1,255 @@
+.container{
+    background-color: #202842;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+   display:flex;
+   width: 60vw;
+   height: 70vh;
+   position: relative;
+   justify-content:center;
+   background-color: #F4F2FD;
+   border: 2px solid black;
+   align-items: center;
+}
+.box .f{
+    margin: 50px;
+    border: 1px solid gray;
+    width: 15vw;
+    border-radius: 2%;
+    height: 40vh;
+    position: relative;
+    color: #202842;
+    background-color: white;
+}
+.box .f .p1{
+    font-size: x-large;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.box .f .p2{
+    position: absolute;
+    left: 20px;
+    top: 45px;
+}
+.box .f .p3{
+    font-size: xx-large;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+.box .f .img1{
+    position: absolute;
+    left: 20px;
+    top: 115px;
+}
+.box .f .p4{
+    position: absolute;
+    left: 45px;
+    top: 115px;
+}
+.box .f .img2{
+    position: absolute;
+    left: 20px;
+    top: 140px;
+}
+.box .f .p5{
+    position: absolute;
+    left: 45px;
+    top: 140px;
+}
+.box .f .img3{
+    position: absolute;
+    left: 20px;
+    top: 165px;
+}
+.box .f .p6{
+    position: absolute;
+    left: 45px;
+    top: 165px;
+}
+.box .f .img4{
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+.box .f .p7{
+    position: absolute;
+    left: 45px;
+    top: 190px;
+}
+.box .f .p8{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+    padding:5px;
+    border-radius: 25px;
+    color: white;
+    background-color: #202842;
+    border: 1px solid gray;
+}
+.box .s .p1{
+    font-size: x-large;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.box .s .p2{
+    position: absolute;
+    left: 20px;
+    top: 45px;
+}
+.box .s .p3{
+    font-size: xx-large;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+.box .s .img1{
+    position: absolute;
+    left: 20px;
+    top: 115px;
+}
+.box .s .p4{
+    position: absolute;
+    left: 45px;
+    top: 115px;
+}
+.box .s .img2{
+    position: absolute;
+    left: 20px;
+    top: 140px;
+}
+.box .s .p5{
+    position: absolute;
+    left: 45px;
+    top: 140px;
+}
+.box .s .img3{
+    position: absolute;
+    left: 20px;
+    top: 165px;
+}
+.box .s .p6{
+    position: absolute;
+    left: 45px;
+    top: 165px;
+}
+.box .s .img4{
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+.box .s .p7{
+    position: absolute;
+    left: 45px;
+    top: 190px;
+}
+.box .s .p8{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+    padding:5px;
+    border-radius: 25px;
+    color: white;
+    background-color: #202842;
+    border: 1px solid gray;
+}
+.box .t .p1{
+    font-size: x-large;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.box .t .p2{
+    position: absolute;
+    left: 20px;
+    top: 45px;
+}
+.box .t .p3{
+    font-size: xx-large;
+    font-weight: 900;
+    position: absolute;
+    left: 20px;
+    top: 65px;
+}
+.box .t .img1{
+    position: absolute;
+    left: 20px;
+    top: 115px;
+}
+.box .t .p4{
+    position: absolute;
+    left: 45px;
+    top: 115px;
+}
+.box .t .img2{
+    position: absolute;
+    left: 20px;
+    top: 140px;
+}
+.box .t .p5{
+    position: absolute;
+    left: 45px;
+    top: 140px;
+}
+.box .t .img3{
+    position: absolute;
+    left: 20px;
+    top: 165px;
+}
+.box .t .p6{
+    position: absolute;
+    left: 45px;
+    top: 165px;
+}
+.box .t .img4{
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+.box .t .p7{
+    position: absolute;
+    left: 45px;
+    top: 190px;
+}
+.box .t .p8{
+    position: absolute;
+    left: 30px;
+    top: 230px;
+    padding:5px;
+    border-radius: 25px;
+    color: white;
+    background-color: #202842;
+    border: 1px solid gray;
+}
+.box .s{
+    margin: 50px;
+    border: 1px solid gray;
+    width: 15vw;
+    height: 40vh;
+    border-radius: 2%;
+    color: white;
+    position: relative;
+    background-color:#202842;
+}
+.box .t{
+    margin: 50px;
+    border: 1px solid gray;
+    height: 40vh;
+    width: 15vw;
+    position: relative;
+    border-radius: 2%;
+    color: #202842;
+    background-color: white;
+}
