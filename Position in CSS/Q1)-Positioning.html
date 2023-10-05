@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        .box{
+            width: 100vw;
+            height: 100vh;
+            /* position: relative; */
+        }
+        .box div{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            width: 50px;
+            height: 50px;
+            background-color: aquamarine;
+            border:2px solid yellowgreen;
+        }
+        .box .f{
+            position: absolute;
+            left:200px;
+            top:200px;
+        }
+        .box .s{
+            position: absolute;
+            left:230px;
+            top:170px;
+        }
+        .box .t{
+            position: absolute;
+            left:170px;
+            top:170px;
+        }
+        .box .fi{
+            position: absolute;
+            left:170px;
+            top:230px;
+        }
+        .box .fo{
+            position: absolute;
+            left:230px;
+            top:230px;
+        }
+     </style>
+</head>
+<body>
+    <div class="box">
+        <div class="f">A</div>
+        <div class="s">C</div>
+        <div class="t">B</div>
+        <div class="fo">E</div>
+        <div class="fi">D</div>
+    </div>
+</body>
+</html>
