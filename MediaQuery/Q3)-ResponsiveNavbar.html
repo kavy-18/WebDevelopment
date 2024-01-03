@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container ul{
+            display: grid;
+            list-style: none;
+            grid-template-columns: auto auto auto auto auto;
+            background-color: black;
+            color: white;
+            justify-content: space-around;
+            align-content: center;
+            height: 8vh;
+        }
+        @media only screen and (max-width:768px){
+            .container ul{
+                grid-template-columns: auto;
+                background-color: gray;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li class="item1">Home</li>
+            <li class="item2">About</li>
+            <li class="item3">Services</li>
+            <li class="item4">Portfolio</li>
+            <li class="item5">Conatct</li>
+        </ul>
+    </div>
+</body>
+</html>

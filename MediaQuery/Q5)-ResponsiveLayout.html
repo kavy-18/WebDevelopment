@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            width:100%;
+            height:100%;
+            color: white;
+            position: relative;
+            text-align: center;
+        }
+        .right{
+            width: 10%;
+            height: 100%;
+            background-color: rgb(54, 52, 52);
+            padding-top: 5px;
+        }
+        .center{
+            width:80%;
+            height:100%;
+        }
+        .center div{
+            height: 50%;
+        }
+        .left{
+            width: 10%;
+            padding-top: 5px;
+            height: 100%;
+            background-color:rgb(54, 52, 52);
+        }
+        .item2{
+            background-color:rgb(90, 210, 170);
+            padding-top: 5px;
+        }
+        .item3{
+            background-color:rgb(214, 163, 68);
+            padding-top: 5px;
+        }
+        @media only screen and (max-width:500px){
+             .left{
+                width: 100%;
+                height: 10vh;
+             }
+             .center{
+                width: 100%;
+                height: 20vh;
+             }
+             .right{
+                width: 100%;
+                height: 10vh;
+                position: absolute;
+                bottom: 0px;
+             }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left"><div class="item1">Box1</div></div>
+        <div class="center">
+            <div class="item2">Box2</div>
+            <div class="item3">Box3</div>
+        </div>
+        <div class="right"><div class="item4">Box4</div></div>
+    </div>
+</body>
+</html>
