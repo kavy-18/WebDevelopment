@@ -1,0 +1,7 @@
+Importance of Meaningful Variable Names in JavaScript:
+
+1)-Choosing meaningful and descriptive variable names is crucial for code readability and maintainability.
+2)-Clear identifiers enhance understanding, reduce the need for comments, and make it easier for developers to collaborate on and extend code.
+ e.g.
+ let a=10;
+ let numberOfStudents=10;

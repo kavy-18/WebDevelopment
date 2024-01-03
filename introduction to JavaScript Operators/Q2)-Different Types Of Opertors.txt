@@ -1,0 +1,29 @@
+Operators in JavaScript can be categorized based on their functionality into several groups. Here are some key categories with examples:
+
+1)Arithmetic Operators:
+
+Perform mathematical operations.eg.+,-,*,/
+
+2)Comparison Operators:
+
+Compare values and return a Boolean result.eg. ==,=== etc.
+
+3)Logical Operators:
+
+Combine or manipulate Boolean values.e.g. &&,||,
+
+4)Assignment Operators:
+
+Assign values to variables.e.g. =
+
+5)Unary Operators:
+
+Operate on a single operand.e.g. !
+
+6)Conditional (Ternary) Operator:
+
+Provides a concise way for conditional expressions.e.g, ? 
+
+7)Bitwise Operators:
+
+Perform bitwise operations on integer values.e.g. &,|,

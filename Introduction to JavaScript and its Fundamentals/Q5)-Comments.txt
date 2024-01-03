@@ -1,0 +1,18 @@
+Importance of Comments in JavaScript:
+
+Comments in JavaScript are essential for documenting code, making it more understandable and maintainable.
+They provide context, explanations, and insights into the purpose of the code, aiding developers in collaboration and future reference.
+Comments are not executed by the JavaScript engine, so they don't impact the code's functionality.
+Examples of Comments:
+
+1) Single-Line Comment:
+
+Used for a brief comment on a single line.
+E.g. // this is a single line comment 
+
+2)Multi-Line Comment:
+
+Used for more extensive comments spanning multiple lines.
+
+E.g./* this is 
+a multi-line comment */

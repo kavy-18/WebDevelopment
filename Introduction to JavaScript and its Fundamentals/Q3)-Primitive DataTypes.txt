@@ -1,0 +1,34 @@
+JavaScript has five primitive data types, which are basic building blocks for constructing more complex data structures. Here's a brief description of each:
+
+1) String:
+
+Description: Represents a sequence of characters enclosed in single (' ') or double (" ") quotes.
+Example: "Hello, World!"
+
+2) Number:
+
+Description: Represents numeric values, including integers and floating-point numbers.
+Example: 42 or 3.14
+
+3) Boolean:
+
+Description: Represents a logical value, either true or false.
+Example: true or false
+
+4) Undefined:
+
+Description: Represents an uninitialized or undefined value.
+Example: let x; (here, x is undefined until a value is assigned)
+
+5) Null:
+
+Description: Represents the intentional absence of any object value.
+Example: let y = null; (here, y is explicitly set to have no value)
+
+These primitive data types are immutable, meaning their values cannot be changed once they are created. They serve as the foundation for more complex data structures and are used to store and manipulate data in JavaScript programs.
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+JavaScript:
+
+Purpose: Adds interactivity and dynamic behavior to web pages.
+Usage Examples: Form validation, updating content without page reload, handling user interactions.
+
+HTML:
+
+Purpose: Defines the structure and content of a webpage.
+Usage Examples: Creating headings, paragraphs, lists, links, images, and overall page structure.

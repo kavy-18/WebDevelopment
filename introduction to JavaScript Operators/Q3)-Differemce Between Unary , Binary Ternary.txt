@@ -1,0 +1,8 @@
+Unary operators work on a single operand (e.g., -x or !true).
+Binary operators work on two operands (e.g., a + b or a - b).
+The ternary operator is a special case that operates on three operands and is often used for concise conditional expressions (e.g., (x > y) ? "Greater" : "Less or Equal").
+
+
+
+
+

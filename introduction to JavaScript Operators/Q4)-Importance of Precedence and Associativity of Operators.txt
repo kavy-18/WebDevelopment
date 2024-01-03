@@ -1,0 +1,17 @@
+Precedence and Associativity of Operators in JavaScript:
+
+Precedence: Determines the order in which operators are evaluated in an expression. Higher precedence operators are evaluated first.
+
+Associativity: Defines the order of evaluation when operators of the same precedence appear in an expression. It can be left-to-right or right-to-left.
+
+Importance of Understanding These Concepts:
+
+Correct Expression Evaluation:
+
+Knowing the precedence ensures that expressions are evaluated in the intended order, preventing unexpected results.
+Avoiding Ambiguity:
+
+Understanding associativity helps resolve ambiguity in expressions with operators of the same precedence.
+Code Readability:
+
+Proper use of precedence and associativity makes code more readable by conveying the intended order of operations.
