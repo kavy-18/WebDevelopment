@@ -1,0 +1,11 @@
+In CSS Grid, the grid-auto-row and grid-auto-column properties are used to define the size of implicitly created rows and columns in a grid when grid items are placed outside the explicitly defined grid area. These properties are particularly useful when you have grid items that don't fit into the explicitly defined rows and columns.
+
+Here are brief explanations and examples for both properties:
+
+grid-auto-row:
+
+This property sets the size of implicitly created rows in the grid.
+
+grid-auto-column:
+
+This property sets the size of implicitly created columns in the grid.

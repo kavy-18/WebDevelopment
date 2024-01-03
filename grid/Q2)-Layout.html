@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-gap: 10px;
+            height: 90vh;
+            grid-template-areas: 
+            'a a a a a a a a b b b b'
+            'a a a a a a a a b b b b'
+            'a a a a a a a a b b b b'
+            'a a a a a a a a b b b b'
+            'c c c c d d d d b b b b'
+            'c c c c d d d d b b b b'
+            'c c c c d d d d b b b b'
+            'c c c c d d d d b b b b'
+        }
+        .container div{
+            background-color: bisque;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .item1{
+            grid-area: a;
+        }
+        .item2{
+            grid-area: b;
+        }
+        .item3{
+            grid-area: c;
+        }
+        .item4{
+            grid-area: d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">A</div>
+        <div class="item2">B</div>
+        <div class="item3">C</div>
+        <div class="item4">D</div>
+    </div>
+</body>
+</html>
